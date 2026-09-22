@@ -1,0 +1,100 @@
+{
+  "file": "example.csv",
+  "metric_checks": [
+    {
+      "metric": "MRR 期末",
+      "verified": 1181979.0,
+      "expected": 1181979.0,
+      "pass": true
+    },
+    {
+      "metric": "MRR 增长率",
+      "verified": 136.55,
+      "expected": 136.55,
+      "pass": true
+    },
+    {
+      "metric": "活跃客户期末",
+      "verified": 2644.0,
+      "expected": 2644.0,
+      "pass": true
+    },
+    {
+      "metric": "活跃客户增长率",
+      "verified": 514.88,
+      "expected": 514.88,
+      "pass": true
+    },
+    {
+      "metric": "ACV 变化率",
+      "verified": -61.52,
+      "expected": -61.52,
+      "pass": true
+    },
+    {
+      "metric": "CAC 变化率",
+      "verified": -72.55,
+      "expected": -72.55,
+      "pass": true
+    },
+    {
+      "metric": "LTV 变化率",
+      "verified": -74.42,
+      "expected": -74.42,
+      "pass": true
+    },
+    {
+      "metric": "NRR 均值",
+      "verified": 111.81,
+      "expected": 111.81,
+      "pass": true
+    },
+    {
+      "metric": "人均营收变化率",
+      "verified": -21.88,
+      "expected": -21.88,
+      "pass": true
+    },
+    {
+      "metric": "毛利率均值",
+      "verified": 71.58,
+      "expected": 71.58,
+      "pass": true
+    }
+  ],
+  "consistency_checks": [
+    {
+      "name": "ARR = MRR × 12",
+      "pass": true,
+      "note": "最大偏差 0.00"
+    },
+    {
+      "name": "毛利 = 收入 - 成本",
+      "pass": true,
+      "note": "最大偏差 0.00"
+    },
+    {
+      "name": "毛利率 = 毛利/收入",
+      "pass": true,
+      "note": "最大偏差 0.00"
+    },
+    {
+      "name": "客户数变化 = 新增 - 流失",
+      "pass": true,
+      "note": "最大偏差 0"
+    },
+    {
+      "name": "EBITDA 率 = EBITDA/收入",
+      "pass": true,
+      "note": "最大偏差 0.00"
+    },
+    {
+      "name": "总费用 = S&M + R&D + G&A",
+      "pass": true,
+      "note": "最大偏差 0.00"
+    }
+  ],
+  "pass": true,
+  "fail_count": 0,
+  "summary": "核心指标复核 10 项 + 一致性断言 6 项：全部通过"
+}

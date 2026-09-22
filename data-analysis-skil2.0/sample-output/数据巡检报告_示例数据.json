@@ -1,0 +1,216 @@
+{
+  "file": "example.csv",
+  "dimensions": {
+    "rows": 36,
+    "columns": 26
+  },
+  "encoding": "ascii",
+  "separator": ",",
+  "columns": [
+    {
+      "column": "date",
+      "dtype": "str",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "mrr",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "arr",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "new_customers",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "churned_customers",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "active_customers",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "churn_rate_pct",
+      "dtype": "float64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "nrr_pct",
+      "dtype": "float64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "revenue",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "cogs",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "gross_profit",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "gross_margin_pct",
+      "dtype": "float64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "sales_marketing",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "research_development",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "general_admin",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "total_opex",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "ebitda",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "ebitda_margin_pct",
+      "dtype": "float64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "headcount",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "revenue_per_employee",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "cac",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "ltv",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "ltv_cac_ratio",
+      "dtype": "float64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "avg_contract_value",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "expansion_mrr",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "contraction_mrr",
+      "dtype": "int64",
+      "non_null": 36,
+      "missing": 0,
+      "missing_pct": 0.0
+    }
+  ],
+  "missing_total": 0,
+  "duplicate_rows": 0,
+  "constant_columns": [],
+  "outliers": {
+    "ltv_cac_ratio": {
+      "count": 1,
+      "lower_bound": 2.832,
+      "upper_bound": 9.952,
+      "method": "IQR (1.5×IQR)",
+      "examples": [
+        {
+          "row": 26,
+          "value": 10.67
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_missing": 0,
+    "duplicate_rows": 0,
+    "columns_with_outliers": 1,
+    "quality_ok": true
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "file": "example.csv",
+  "generated_by": "指标统计_确定性计算.py（代码计算，非 LLM 心算）",
+  "metrics": [
+    {
+      "metric": "MRR 起始",
+      "value": 499669.0,
+      "unit": "$",
+      "scope": "2022-01",
+      "formula": "mrr"
+    },
+    {
+      "metric": "MRR 期末",
+      "value": 1181979.0,
+      "unit": "$",
+      "scope": "2024-12",
+      "formula": "mrr"
+    },
+    {
+      "metric": "MRR 增长率",
+      "value": 136.55,
+      "unit": "%",
+      "scope": "三年",
+      "formula": "(期末-起始)/起始"
+    },
+    {
+      "metric": "ARR 期末",
+      "value": 14183748.0,
+      "unit": "$",
+      "scope": "2024-12",
+      "formula": "arr = mrr×12"
+    },
+    {
+      "metric": "活跃客户起始",
+      "value": 430,
+      "unit": "户",
+      "scope": "2022-01",
+      "formula": "active_customers"
+    },
+    {
+      "metric": "活跃客户期末",
+      "value": 2644,
+      "unit": "户",
+      "scope": "2024-12",
+      "formula": "active_customers"
+    },
+    {
+      "metric": "活跃客户增长率",
+      "value": 514.88,
+      "unit": "%",
+      "scope": "三年",
+      "formula": "(期末-起始)/起始"
+    },
+    {
+      "metric": "2022 年收入",
+      "value": 7528163.0,
+      "unit": "$",
+      "scope": "2022",
+      "formula": "sum(revenue)"
+    },
+    {
+      "metric": "2022 年 EBITDA",
+      "value": 1019410.0,
+      "unit": "$",
+      "scope": "2022",
+      "formula": "sum(ebitda)"
+    },
+    {
+      "metric": "2022 年新增客户",
+      "value": 573,
+      "unit": "户",
+      "scope": "2022",
+      "formula": "sum(new_customers)"
+    },
+    {
+      "metric": "2022 年流失客户",
+      "value": 196,
+      "unit": "户",
+      "scope": "2022",
+      "formula": "sum(churned_customers)"
+    },
+    {
+      "metric": "2023 年收入",
+      "value": 10313155.0,
+      "unit": "$",
+      "scope": "2023",
+      "formula": "sum(revenue)"
+    },
+    {
+      "metric": "2023 年 EBITDA",
+      "value": 1470786.0,
+      "unit": "$",
+      "scope": "2023",
+      "formula": "sum(ebitda)"
+    },
+    {
+      "metric": "2023 年新增客户",
+      "value": 1030,
+      "unit": "户",
+      "scope": "2023",
+      "formula": "sum(new_customers)"
+    },
+    {
+      "metric": "2023 年流失客户",
+      "value": 388,
+      "unit": "户",
+      "scope": "2023",
+      "formula": "sum(churned_customers)"
+    },
+    {
+      "metric": "2024 年收入",
+      "value": 13016747.0,
+      "unit": "$",
+      "scope": "2024",
+      "formula": "sum(revenue)"
+    },
+    {
+      "metric": "2024 年 EBITDA",
+      "value": 2177590.0,
+      "unit": "$",
+      "scope": "2024",
+      "formula": "sum(ebitda)"
+    },
+    {
+      "metric": "2024 年新增客户",
+      "value": 1888,
+      "unit": "户",
+      "scope": "2024",
+      "formula": "sum(new_customers)"
+    },
+    {
+      "metric": "2024 年流失客户",
+      "value": 675,
+      "unit": "户",
+      "scope": "2024",
+      "formula": "sum(churned_customers)"
+    },
+    {
+      "metric": "收入增长率(2023)",
+      "value": 36.99,
+      "unit": "%",
+      "scope": "2022→2023",
+      "formula": "(本年-上年)/上年"
+    },
+    {
+      "metric": "收入增长率(2024)",
+      "value": 26.21,
+      "unit": "%",
+      "scope": "2023→2024",
+      "formula": "(本年-上年)/上年"
+    },
+    {
+      "metric": "ACV 起始",
+      "value": 13944.0,
+      "unit": "$",
+      "scope": "2022-01",
+      "formula": "avg_contract_value"
+    },
+    {
+      "metric": "ACV 期末",
+      "value": 5365.0,
+      "unit": "$",
+      "scope": "2024-12",
+      "formula": "avg_contract_value"
+    },
+    {
+      "metric": "ACV 变化率",
+      "value": -61.52,
+      "unit": "%",
+      "scope": "三年",
+      "formula": "(期末-起始)/起始"
+    },
+    {
+      "metric": "CAC 起始",
+      "value": 6436.0,
+      "unit": "$",
+      "scope": "2022-01",
+      "formula": "cac"
+    },
+    {
+      "metric": "CAC 期末",
+      "value": 1767.0,
+      "unit": "$",
+      "scope": "2024-12",
+      "formula": "cac"
+    },
+    {
+      "metric": "CAC 变化率",
+      "value": -72.55,
+      "unit": "%",
+      "scope": "三年",
+      "formula": "(期末-起始)/起始"
+    },
+    {
+      "metric": "LTV 起始",
+      "value": 38083.0,
+      "unit": "$",
+      "scope": "2022-01",
+      "formula": "ltv"
+    },
+    {
+      "metric": "LTV 期末",
+      "value": 9743.0,
+      "unit": "$",
+      "scope": "2024-12",
+      "formula": "ltv"
+    },
+    {
+      "metric": "LTV 变化率",
+      "value": -74.42,
+      "unit": "%",
+      "scope": "三年",
+      "formula": "(期末-起始)/起始"
+    },
+    {
+      "metric": "LTV/CAC 均值",
+      "value": 6.49,
+      "unit": "",
+      "scope": "三年均值",
+      "formula": "mean(ltv_cac_ratio)"
+    },
+    {
+      "metric": "NRR 均值",
+      "value": 111.81,
+      "unit": "%",
+      "scope": "三年均值",
+      "formula": "mean(nrr_pct)"
+    },
+    {
+      "metric": "流失率均值",
+      "value": 3.0,
+      "unit": "%",
+      "scope": "三年均值",
+      "formula": "mean(churn_rate_pct)"
+    },
+    {
+      "metric": "扩张 MRR 增长率",
+      "value": 118.94,
+      "unit": "%",
+      "scope": "三年",
+      "formula": "(期末-起始)/起始"
+    },
+    {
+      "metric": "收缩 MRR 增长率",
+      "value": 121.03,
+      "unit": "%",
+      "scope": "三年",
+      "formula": "(期末-起始)/起始"
+    },
+    {
+      "metric": "毛利率均值",
+      "value": 71.58,
+      "unit": "%",
+      "scope": "三年均值",
+      "formula": "mean(gross_margin_pct)"
+    },
+    {
+      "metric": "2022 EBITDA 率",
+      "value": 13.54,
+      "unit": "%",
+      "scope": "2022",
+      "formula": "EBITDA/收入"
+    },
+    {
+      "metric": "2023 EBITDA 率",
+      "value": 14.26,
+      "unit": "%",
+      "scope": "2023",
+      "formula": "EBITDA/收入"
+    },
+    {
+      "metric": "2024 EBITDA 率",
+      "value": 16.73,
+      "unit": "%",
+      "scope": "2024",
+      "formula": "EBITDA/收入"
+    },
+    {
+      "metric": "Rule of 40 (2023)",
+      "value": 51.25,
+      "unit": "",
+      "scope": "2023",
+      "formula": "收入增速+EBITDA率"
+    },
+    {
+      "metric": "Rule of 40 (2024)",
+      "value": 42.94,
+      "unit": "",
+      "scope": "2024",
+      "formula": "收入增速+EBITDA率"
+    },
+    {
+      "metric": "员工数起始",
+      "value": 33,
+      "unit": "人",
+      "scope": "2022-01",
+      "formula": "headcount"
+    },
+    {
+      "metric": "员工数期末",
+      "value": 99,
+      "unit": "人",
+      "scope": "2024-12",
+      "formula": "headcount"
+    },
+    {
+      "metric": "人均营收起始",
+      "value": 190684.0,
+      "unit": "$/人",
+      "scope": "2022-01",
+      "formula": "revenue_per_employee"
+    },
+    {
+      "metric": "人均营收期末",
+      "value": 148968.0,
+      "unit": "$/人",
+      "scope": "2024-12",
+      "formula": "revenue_per_employee"
+    },
+    {
+      "metric": "人均营收变化率",
+      "value": -21.88,
+      "unit": "%",
+      "scope": "三年",
+      "formula": "(期末-起始)/起始"
+    }
+  ]
+}
